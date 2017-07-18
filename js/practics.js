@@ -4,6 +4,7 @@
 // second paragraph doesn't show unless a key is clicked
 // text changes with keypress - first it has instructions and then it has numbers
 
+// ORIGINAL CLASS CODE BEGINS
 // keypress event listener
 document.addEventListener('keypress', function(e){
     console.log(e);
@@ -16,7 +17,7 @@ pressKey.innerHTML = '<p>Here is a <strong>line</strong> of text</p>';
 // // set innerHTML for #original-value
 var keyValue = document.querySelector('div#original-value');
 console.log(keyValue.innerHTML);
-
+// ORIGINAL CLASS CODE ENDS
 
 
 // function with input tag in html w3schools
